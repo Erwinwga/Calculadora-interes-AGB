@@ -14,10 +14,12 @@ col1, col2, col3 = st.columns([2, 1, 1])
 with col1:
     st.image("assets/AGBIMAGEN.jpg", width=800)
     st.title("💰 Calculadora de interés compuesto - AGBROTHERS")
+
 with col2:
-    st.image("assets/BASEBALLAGB.jpg", use_column_width=True)
+    st.image("assets/BASEBALLAGB.jpg", width=400)
+
 with col3:
-    st.image("assets/wc.jpg", use_column_width=True)
+    st.image("assets/wc.jpg", width=400)
 
 # Sidebar con inputs mejorados
 st.sidebar.header("Parámetros de inversión")
